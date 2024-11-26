@@ -1,0 +1,156 @@
+INFO - 2024-11-25 20:24:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-11-25 20:58:42 --> CodeIgniter\Router\Exceptions\RouterException: The namespace delimiter is a backslash (\), not a slash (/). Route handler: "\App\Controllers\Users/Home::index"
+[Method: GET, Route: /]
+in SYSTEMPATH/Router/Router.php on line 492.
+ 1 SYSTEMPATH/Router/Router.php(492): CodeIgniter\Router\Exceptions\RouterException::forInvalidControllerName('\\App\\Controllers\\Users/Home::index')
+ 2 SYSTEMPATH/Router/Router.php(210): CodeIgniter\Router\Router->checkRoutes('/')
+ 3 SYSTEMPATH/CodeIgniter.php(834): CodeIgniter\Router\Router->handle('/')
+ 4 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 5 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-11-25 20:59:18 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "ok.php"
+[Method: GET, Route: /]
+in SYSTEMPATH/Exceptions/FrameworkException.php on line 41.
+ 1 SYSTEMPATH/View/View.php(222): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('ok.php')
+ 2 SYSTEMPATH/Common.php(1171): CodeIgniter\View\View->render('ok', [], true)
+ 3 APPPATH/Controllers/Users/Home.php(9): view('ok')
+ 4 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Users\Home->index()
+ 5 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Users\Home))
+ 6 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-11-25 21:03:09 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "ok.php"
+[Method: GET, Route: /]
+in SYSTEMPATH/Exceptions/FrameworkException.php on line 41.
+ 1 SYSTEMPATH/View/View.php(222): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('ok.php')
+ 2 SYSTEMPATH/Common.php(1171): CodeIgniter\View\View->render('ok', [], true)
+ 3 APPPATH/Controllers/Users/Home.php(9): view('ok')
+ 4 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Users\Home->index()
+ 5 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Users\Home))
+ 6 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-11-25 21:11:28 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "home.php"
+[Method: GET, Route: /]
+in SYSTEMPATH/Exceptions/FrameworkException.php on line 41.
+ 1 SYSTEMPATH/View/View.php(222): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('home.php')
+ 2 SYSTEMPATH/Common.php(1171): CodeIgniter\View\View->render('home', [], true)
+ 3 APPPATH/Controllers/Users/Home.php(9): view('home')
+ 4 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Users\Home->index()
+ 5 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Users\Home))
+ 6 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-11-25 21:55:38 --> ParseError: syntax error, unexpected end of file
+[Method: GET, Route: about]
+in APPPATH/Config/Routes.php on line 12.
+ 1 SYSTEMPATH/CodeIgniter.php(823): CodeIgniter\Router\RouteCollection->loadRoutes()
+ 2 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->tryToRouteIt(null)
+ 3 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-11-25 22:33:47 --> ParseError: syntax error, unexpected end of file
+[Method: GET, Route: about]
+in APPPATH/Config/Routes.php on line 15.
+ 1 SYSTEMPATH/CodeIgniter.php(823): CodeIgniter\Router\RouteCollection->loadRoutes()
+ 2 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->tryToRouteIt(null)
+ 3 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-11-25 22:34:10 --> ErrorException: Undefined variable $title
+[Method: GET, Route: komik]
+in APPPATH/Views/layout/template.php on line 6.
+ 1 APPPATH/Views/layout/template.php(6): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $title', '/data/data/com.termux/files/home/WWW/webci4/app/Views/layout/template.php', 6)
+ 2 SYSTEMPATH/View/View.php(234): include('/data/data/com.termux/files/home/WWW/webci4/app/Views/layout/template.php')
+ 3 SYSTEMPATH/View/View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/View/View.php(250): CodeIgniter\View\View->render('layout/template', [], true)
+ 5 SYSTEMPATH/Common.php(1171): CodeIgniter\View\View->render('users/index', [], true)
+ 6 APPPATH/Controllers/Komik/Komik.php(13): view('users/index')
+ 7 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Komik\Komik->index()
+ 8 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Komik\Komik))
+ 9 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-11-25 22:37:22 --> ErrorException: Undefined variable $title
+[Method: GET, Route: komik]
+in APPPATH/Views/layout/template.php on line 6.
+ 1 APPPATH/Views/layout/template.php(6): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $title', '/data/data/com.termux/files/home/WWW/webci4/app/Views/layout/template.php', 6)
+ 2 SYSTEMPATH/View/View.php(234): include('/data/data/com.termux/files/home/WWW/webci4/app/Views/layout/template.php')
+ 3 SYSTEMPATH/View/View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/View/View.php(250): CodeIgniter\View\View->render('layout/template', [], true)
+ 5 SYSTEMPATH/Common.php(1171): CodeIgniter\View\View->render('users/index', [], true)
+ 6 APPPATH/Controllers/Komik/Komik.php(13): view('users/index')
+ 7 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Komik\Komik->index()
+ 8 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Komik\Komik))
+ 9 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-11-25 22:40:10 --> ErrorException: Undefined variable $title
+[Method: GET, Route: komik]
+in APPPATH/Views/layout/template.php on line 6.
+ 1 APPPATH/Views/layout/template.php(6): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $title', '/data/data/com.termux/files/home/WWW/webci4/app/Views/layout/template.php', 6)
+ 2 SYSTEMPATH/View/View.php(234): include('/data/data/com.termux/files/home/WWW/webci4/app/Views/layout/template.php')
+ 3 SYSTEMPATH/View/View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/View/View.php(250): CodeIgniter\View\View->render('layout/template', [], true)
+ 5 SYSTEMPATH/Common.php(1171): CodeIgniter\View\View->render('users/index', [], true)
+ 6 APPPATH/Controllers/Komik/Komik.php(13): view('users/index')
+ 7 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Komik\Komik->index()
+ 8 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Komik\Komik))
+ 9 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-11-25 22:43:02 --> ErrorException: Undefined variable $title
+[Method: GET, Route: komik]
+in APPPATH/Views/layout/template.php on line 6.
+ 1 APPPATH/Views/layout/template.php(6): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $title', '/data/data/com.termux/files/home/WWW/webci4/app/Views/layout/template.php', 6)
+ 2 SYSTEMPATH/View/View.php(234): include('/data/data/com.termux/files/home/WWW/webci4/app/Views/layout/template.php')
+ 3 SYSTEMPATH/View/View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/View/View.php(250): CodeIgniter\View\View->render('layout/template', [], true)
+ 5 SYSTEMPATH/Common.php(1171): CodeIgniter\View\View->render('users/index', [], true)
+ 6 APPPATH/Controllers/Komik/Komik.php(13): view('users/index')
+ 7 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Komik\Komik->index()
+ 8 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Komik\Komik))
+ 9 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-11-25 22:52:51 --> ErrorException: Undefined variable $title
+[Method: GET, Route: komik]
+in APPPATH/Views/layout/template.php on line 6.
+ 1 APPPATH/Views/layout/template.php(6): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $title', '/data/data/com.termux/files/home/WWW/webci4/app/Views/layout/template.php', 6)
+ 2 SYSTEMPATH/View/View.php(234): include('/data/data/com.termux/files/home/WWW/webci4/app/Views/layout/template.php')
+ 3 SYSTEMPATH/View/View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/View/View.php(250): CodeIgniter\View\View->render('layout/template', [], true)
+ 5 SYSTEMPATH/Common.php(1171): CodeIgniter\View\View->render('home/komik', [], true)
+ 6 APPPATH/Controllers/Users/Home.php(35): view('home/komik')
+ 7 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Users\Home->komik()
+ 8 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Users\Home))
+ 9 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-11-25 22:53:07 --> ErrorException: Undefined variable $title
+[Method: GET, Route: komik]
+in APPPATH/Views/layout/template.php on line 6.
+ 1 APPPATH/Views/layout/template.php(6): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $title', '/data/data/com.termux/files/home/WWW/webci4/app/Views/layout/template.php', 6)
+ 2 SYSTEMPATH/View/View.php(234): include('/data/data/com.termux/files/home/WWW/webci4/app/Views/layout/template.php')
+ 3 SYSTEMPATH/View/View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/View/View.php(250): CodeIgniter\View\View->render('layout/template', [], true)
+ 5 SYSTEMPATH/Common.php(1171): CodeIgniter\View\View->render('home/komik', [], true)
+ 6 APPPATH/Controllers/Users/Home.php(35): view('home/komik')
+ 7 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Users\Home->komik()
+ 8 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Users\Home))
+ 9 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
