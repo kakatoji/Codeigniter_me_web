@@ -1,6 +1,7 @@
 <?php
+//HAPUS FILE INI
 
-namespace App\Controllers\Komik;
+/*namespace App\Controllers\Komik;
 
 use App\Controllers\BaseController;
 class Komik extends BaseController
@@ -13,3 +14,4 @@ class Komik extends BaseController
     return view("users/index",$data);
   }
 }
+*/
